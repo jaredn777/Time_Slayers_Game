@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Character Files">
+      <UniqueIdentifier>{83c4dd54-22c1-4910-a79f-6dad092410f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screens">
+      <UniqueIdentifier>{69305a6e-ba10-4660-a002-8a1768068d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screens\Title Screen">
+      <UniqueIdentifier>{a04772a2-9e59-43dd-85e4-717d3acfffab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screens\Game Wrapper">
+      <UniqueIdentifier>{ea7646c2-85df-40dc-a0aa-c8cd3b188de4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{f030a8d5-efc2-409d-9652-f119ca7ba8eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screens\End Screen">
+      <UniqueIdentifier>{0cbc3b10-86ba-4a63-ac67-23baf56825a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screens\WinScreens">
+      <UniqueIdentifier>{33dc36ed-d83a-48ca-bdd1-3c55157c86fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="character.cpp">
+      <Filter>Character Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Background.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="MainCharacter.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="MainCharacter2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TitleScreen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Untitled-1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="character.h">
+      <Filter>Character Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menus.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScreen.h">
+      <Filter>Screens\Title Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Screens\Game Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="endScreen.h">
+      <Filter>Screens\End Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="winScreen.h">
+      <Filter>Screens\WinScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="wsc2.h">
+      <Filter>Screens\WinScreens</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Gat.wav">
+      <Filter>Audio</Filter>
+    </Media>
+    <Media Include="Gat2.wav">
+      <Filter>Audio</Filter>
+    </Media>
+    <Media Include="DEATHNOISE1.wav">
+      <Filter>Audio</Filter>
+    </Media>
+    <Media Include="DEATHNOISE2.wav">
+      <Filter>Audio</Filter>
+    </Media>
+    <Media Include="DEATHNOISE3.wav">
+      <Filter>Audio</Filter>
+    </Media>
+    <Media Include="MenuMusic.wav">
+      <Filter>Audio</Filter>
+    </Media>
+    <Media Include="PlaySelect1.wav">
+      <Filter>Audio</Filter>
+    </Media>
+    <Media Include="ExitSound.wav">
+      <Filter>Audio</Filter>
+    </Media>
+    <Media Include="PlayerDeathNoise.wav">
+      <Filter>Audio</Filter>
+    </Media>
+    <Media Include="SuccessMusic.wav">
+      <Filter>Audio</Filter>
+    </Media>
+    <Media Include="DEATHNOISE4.wav">
+      <Filter>Audio</Filter>
+    </Media>
+    <Media Include="DeathNOISE5.wav">
+      <Filter>Audio</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="mapz.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="newmap.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

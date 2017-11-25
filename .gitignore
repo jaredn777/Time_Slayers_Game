@@ -1,0 +1,11 @@
+*.suo
+*.db
+*.vcxproj
+*.obj
+*.log
+*.tlog
+*.pdb
+*.ilk
+*.idb
+*.pdb
+*.VC
